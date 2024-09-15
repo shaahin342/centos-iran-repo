@@ -25,3 +25,4 @@ sudo yum repolist -v
 
 کپی
 sudo yum install nginx
+
