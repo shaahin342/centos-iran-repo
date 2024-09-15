@@ -1,0 +1,27 @@
+# بک آپ گیری از فایل های کانفیگ مخزن قبلی
+
+کپی
+sudo mv /etc/yum.repos.d/CentOS-Stream-AppStream.repo /etc/yum.repos.d/CentOS-Stream-AppStream_repo
+
+کپی
+sudo mv /etc/yum.repos.d/CentOS-Stream-BaseOS.repo /etc/yum.repos.d/CentOS-Stream-BaseOS_repo
+
+# فایل های کانفیگ مخزن را که در بالای این راهنمایی قرار گرفته دانلود کرده و بوسیله دستور زیر به محل صحیح آن منتقل کنید
+
+(بخش path_to_file را با آدرس صحیح محل فایل دانلود شده جایگزین کنید!)
+
+کپی
+sudo mv /path_to_file/CentOS-Stream-AppStream.repo /etc/yum.repos.d/
+
+کپی
+sudo mv /path_to_file/CentOS-Stream-BaseOS.repo /etc/yum.repos.d/
+
+# به روز رسانی اطلاعات مورد نیاز برای استفاده از مخزن داخلی
+
+کپی
+sudo yum repolist -v
+
+# تست نصب بسته از روی مخزن داخلی
+
+کپی
+sudo yum install nginx
