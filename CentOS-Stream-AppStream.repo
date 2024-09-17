@@ -1,0 +1,5 @@
+[appstream]
+name=ITO-Repo CentOS-$releasever - AppStream
+baseurl=https://repo.ito.gov.ir/centos/8-stream/AppStream/$basearch/os/
+gpgcheck=0
+enabled=1

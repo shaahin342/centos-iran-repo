@@ -1,0 +1,5 @@
+[baseos]
+name=ITO-Repo CentOS-$releasever - BaseOS
+baseurl=https://repo.ito.gov.ir/centos/8-stream/BaseOS/$basearch/os/
+gpgcheck=0
+enabled=1
